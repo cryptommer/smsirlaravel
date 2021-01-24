@@ -1,11 +1,10 @@
-# Very short description of the package
+# Unofficial sms.ir laravel repository
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/cryptommer/smsirlaravel.svg?style=flat-square)](https://packagist.org/packages/cryptommer/smsirlaravel)
-[![Build Status](https://img.shields.io/travis/cryptommer/smsirlaravel/master.svg?style=flat-square)](https://travis-ci.org/cryptommer/smsirlaravel)
 [![Quality Score](https://img.shields.io/scrutinizer/g/cryptommer/smsirlaravel.svg?style=flat-square)](https://scrutinizer-ci.com/g/cryptommer/smsirlaravel)
 [![Total Downloads](https://img.shields.io/packagist/dt/cryptommer/smsirlaravel.svg?style=flat-square)](https://packagist.org/packages/cryptommer/smsirlaravel)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+This repository based on sms.ir official repository for all versions of laravel. I make this repository because the official version won't work with laravel 6 or newer.
 
 ## Installation
 
@@ -17,19 +16,7 @@ composer require cryptommer/smsirlaravel
 
 ## Usage
 
-``` php
-// Usage description here
-```
-
-### Testing
-
-``` bash
-composer test
-```
-
-### Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+You can use this repository just like official version.
 
 ## Contributing
 
@@ -47,7 +34,3 @@ If you discover any security related issues, please email cyberman9000@gmail.com
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
