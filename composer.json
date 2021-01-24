@@ -1,0 +1,55 @@
+{
+    "name": "cryptommer/smsirlaravel",
+    "description": "UnOfficial Laravel Package for sms.ir",
+    "keywords": [
+        "cryptommer",
+        "smsirlaravel"
+    ],
+    "homepage": "https://github.com/cryptommer/smsirlaravel",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pouya Biglari",
+            "email": "cyberman9000@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "*",
+        "guzzlehttp/guzzle": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cryptommer\\Smsirlaravel\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cryptommer\\Smsirlaravel\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cryptommer\\Smsirlaravel\\SmsirlaravelServiceProvider"
+            ],
+            "aliases": {
+                "Smsirlaravel": "Cryptommer\\Smsirlaravel\\Facade\\SmsirlaravelFacade"
+            }
+        }
+    }
+}
